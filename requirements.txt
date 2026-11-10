@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+pandas
+plotly
+altair
+pymupdf
+pillow
+pytesseract
+google-genai
+requests

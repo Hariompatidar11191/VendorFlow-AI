@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vendor documents and generated files
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.pdf
+
+# Temporary files
+.DS_Store
